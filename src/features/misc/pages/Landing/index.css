@@ -1,0 +1,37 @@
+/* Ensures the parent container takes up the full height of the viewport */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styles for the main div */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: "max-content";
+  width: "max-content";
+  padding: 20px; /* Optional: adjust padding as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for a subtle shadow effect */
+  background-color: #fff; /* Optional: to ensure background is white */
+}
+
+.main h1 {
+  font-size: 20px; /* Adjust font size if needed */
+  margin-bottom: 10px; /* Adjust spacing */
+  text-align: center; /* Center the text inside the h1 */
+}
+
+.main img {
+  height: 100px; /* Adjust image size if needed */
+  width: 100px; /* Adjust image size if needed */
+  margin-bottom: 10px; /* Adjust spacing */
+}
+
+
+.main .ant-btn {
+  margin-top: 10px; /* Adjust spacing */
+}

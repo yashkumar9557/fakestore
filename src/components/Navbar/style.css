@@ -1,0 +1,15 @@
+.ant-card-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.ant-card-body {
+  display: flex;
+}
+.ant-card-meta-title {
+  text-wrap: wrap !important;
+}
+html {
+  scroll-behavior: smooth;
+}

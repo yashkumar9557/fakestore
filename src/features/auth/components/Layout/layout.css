@@ -1,0 +1,48 @@
+/* Ensure the parent container takes up the full height of the viewport and center content */
+.auth-container {
+  height: 100vh;
+}
+
+/* Style the card */
+.auth-card {
+  padding: 40px 20px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.logo-container {
+  text-align: center;
+  /* margin-bottom: 0px; */
+}
+
+.auth-logo {
+  height: 60px; /* Adjust the height of the logo as needed */
+}
+
+/* Style the title */
+.auth-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the button */
+.auth-button {
+  width: 100%;
+}
+.signup-link-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Style the signup link */
+.signup-link {
+  color: #1890ff;
+  margin-left: 5px;
+}
