@@ -1,4 +1,4 @@
-import { Badge, Menu } from "antd";
+import { Menu } from "antd";
 import "./style.css";
 import {
   LogoutOutlined,

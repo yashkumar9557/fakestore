@@ -1,5 +1,5 @@
 // Notification.js
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { notification } from 'antd';
 import { HIDE_NOTIFICATION } from '../../redux/reducers/notification';

@@ -2,11 +2,13 @@ import { Button, Card, Col, Row } from "antd";
 import "./index.css";
 import { useEffect, useState } from "react";
 import { ShoppingCartOutlined } from "@ant-design/icons";
-import { addToCart, getAllProducts } from "../api";
+import { getAllProducts } from "../../api";
+import { addToCart } from "../../../cart/api";
 import Rating from "react-rating-stars-component";
 import { useDispatch, useSelector } from "react-redux";
-import { AsyncModal } from "../../../components";
-import { SHOW_NOTIFICATION } from "../../../redux/reducers/notification";
+import { AsyncModal } from "../../../../components";
+import { SHOW_NOTIFICATION } from "../../../../redux/reducers/notification";
+
 const Product = () => {
   const dispatch = useDispatch();
   const { auth } = useSelector((state) => state.persistedReducers);

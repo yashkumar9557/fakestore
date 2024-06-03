@@ -1,2 +1,2 @@
-import Product from "../pages/product";
+import Product from "../pages/Product/product";
 export { Product };
